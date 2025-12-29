@@ -5,10 +5,7 @@ on:
     branches: [ "main" ]
     paths:
       - 'payments/payment-payment/**'
-  pull_request:
-    branches: [ "main" ]
-    paths:
-      - 'payments/payment-payment/**'
+
 
 jobs:
   build-and-push:
