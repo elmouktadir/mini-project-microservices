@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "main" ]
     paths:
-      - 'payments/payment-payment/**'
+      - 'payments/order-payment/**'
 
 
 jobs:
